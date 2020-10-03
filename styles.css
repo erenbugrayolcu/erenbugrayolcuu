@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: auto;
     padding: 0;
     box-sizing: border-box;
 }
@@ -10,7 +10,7 @@ html{
 }
 
 h1{
-        text-align: center;
+    text-align: center;
     font-size: 5rem;
     text-transform: uppercase;
     letter-spacing: 2px;
