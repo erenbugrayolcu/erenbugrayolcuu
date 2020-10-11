@@ -1,7 +1,23 @@
+.butonlar{
+    display: flex;
+}
+
+.buton{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+header{
+    background-color: #333;
+    margin: auto;
+    padding:1px;
+}
+
 a{
     position: relative;
-    display: inline-block;
-    margin: 100px 500px 50px 500px;
+    display: flex;
+    margin: 10px 25px 10px 5px;
     padding: 15px 30px;
     color: #2196f3;
     text-transform: uppercase;
@@ -13,7 +29,7 @@ a{
 }
 
 a:hover{
-    color: #255784;
+    color: #fff;
     background: #2196f3;
     box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
