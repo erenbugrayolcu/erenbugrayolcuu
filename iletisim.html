@@ -27,15 +27,16 @@
 
 </head>
 <body>
-
+    <a href="#tr" data-reload>Turkish</a>
+    <a href="#en" data-reload>English</a>
      
     <center>
 <form action="//formspree.io/yolcubugra7@gmail.com" method="post" onsubmit="return checkforblank()">
-    Ad-Soyad :<br>
-<input type="text" name="user" id="user"/><br><br>
-E-Mail :<br>
+    <p id="adsoyad">Ad-Soyad :</p><br>
+<input type="text" name="user" id="user"/><br><br> 
+<p id="mailadresi">E-Mail :</p><br>
 <input type="email" name="mail" id="mail"/><br><br>
-İleti :<br>
+<p id="mesaj">İleti :</p><br>
 <textarea name="yazi" id="yazi" rows="7" cols="60"></textarea><br><br>
 <input type="submit" value="Gönder" id="buton"/>
 
@@ -63,15 +64,15 @@ var language = {
 
     if(window.location.hash){
   if(window.location.hash === "#tr"){
-    user.textContent = language.tr.ad;
-    mail.textContent = language.tr.email;
-    yazi.textContent = language.tr.ileti;
+    adsoyad.textContent = language.tr.ad;
+    mailadresi.textContent = language.tr.email;
+    mesaj.textContent = language.tr.iletii;
     buton.textContent = language.tr.button;
   }
   if(window.location.hash === "#en"){
-    user.textContent = language.en.ad;
-    mail.textContent = language.en.email;
-    yazi.textContent = language.en.ileti;
+    adsoyad.textContent = language.en.ad;
+    mailadresi.textContent = language.en.email;
+    mesaj.textContent = language.en.iletii;
     buton.textContent = language.en.button;
 }
 }
