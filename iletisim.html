@@ -27,6 +27,8 @@
 
 </head>
 <body>
+
+     
     <center>
 <form action="//formspree.io/yolcubugra7@gmail.com" method="post" onsubmit="return checkforblank()">
     Ad-Soyad :<br>
@@ -35,10 +37,46 @@ E-Mail :<br>
 <input type="email" name="mail" id="mail"/><br><br>
 İleti :<br>
 <textarea name="yazi" id="yazi" rows="7" cols="60"></textarea><br><br>
-<input type="submit" value="Gönder"/>
+<input type="submit" value="Gönder" id="buton"/>
 
 
 </form>
 </center>
+
+<script>
+
+var language = {
+        tr: {
+        ad:"Ad-Soyad",
+        email:"E-Mail",
+        iletii:"İleti",
+        button:"Gönder",
+        
+      },
+      en:{
+        ad:"Name-Last Name",
+        email:"E-Mail",
+        iletii:"Message",
+        button:"Send",
+      }
+      };
+
+    if(window.location.hash){
+  if(window.location.hash === "#tr"){
+    user.textContent = language.tr.ad;
+    mail.textContent = language.tr.email;
+    yazi.textContent = language.tr.ileti;
+    buton.textContent = language.tr.button;
+  }
+  if(window.location.hash === "#en"){
+    user.textContent = language.en.ad;
+    mail.textContent = language.en.email;
+    yazi.textContent = language.en.ileti;
+    buton.textContent = language.en.button;
+}
+}
+
+    </script>
+
 </body>
 </html>
