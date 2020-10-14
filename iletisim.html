@@ -15,6 +15,10 @@
         if(document.getElementById('yazi').value==""){
             alert("Lütfen iletinizi giriniz.")
             return false;
+        }  
+            if(document.getElementById('ileti').value==""){
+            alert("Lütfen mail adresinizi giriniz.")
+            return false;
         }
     }
 </script>
@@ -28,7 +32,7 @@
 E-Mail :<br>
 <input type="email" name="mail" id="mail"/><br><br>
 İleti :<br>
-<textarea name="yazi" id="yazi" rows="7" cols="60"></textarea><br><br>
+<textarea name="yazi" id="ileti" rows="7" cols="60"></textarea><br><br>
 <input type="submit" value="Gönder"/>
 
 
