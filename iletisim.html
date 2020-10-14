@@ -4,16 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>İletişim</title>
+
+<script>
+    function checkforblank(){
+        if(document.getElementById('user').value==""){
+            alert("Lütfen adınızı girin.")
+            return false;       
+        }
+
+        if(document.getElementById('yazi').value==""){
+            alert("Lütfen iletinizi giriniz.")
+            return false;
+        }
+    }
+</script>
+
 </head>
 <body style="background: #1b1b1b; color: #fff;">
     <center>
-<form action="//formspree.io/yolcubugra7@gmail.com" method="post">
+<form action="//formspree.io/yolcubugra7@gmail.com" method="post" onsubmit="return checkforblank()">
     Ad-Spyad :<br>
-<input type="text" name="user"/><br><br>
+<input type="text" name="user" id="user"/><br><br>
 E-Mail :<br>
-<input type="email" name="mail"/><br><br>
-Yazı :<br>
-<input type="text" name="comment" size="50%"/><br><br>
+<input type="email" name="mail" id="mail"/><br><br>
+İleti :<br>
+<input type="text" name="yazi" id="yazi" size="50%"/><br><br>
 <input type="submit" value="Gönder"/>
 
 
