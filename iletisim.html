@@ -12,14 +12,16 @@
             return false;       
         }
 
+        if(document.getElementById('mail').value==""){
+            alert("Lütfen mail adresinizi giriniz.")
+            return false;
+        }
+        
         if(document.getElementById('ileti').value==""){
             alert("Lütfen iletinizi giriniz.")
             return false;
         }  
-            if(document.getElementById('mail').value==""){
-            alert("Lütfen mail adresinizi giriniz.")
-            return false;
-        }
+            
     }
 </script>
 
