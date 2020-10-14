@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="iletisim.css">
+    <link rel="stylesheet" href="iletisim.css">
     <title>İletişim</title>
 
 <script>
@@ -13,21 +13,15 @@
             return false;       
         }
 
-        if(document.getElementById('mail').value==""){
-            alert("Lütfen mail adresinizi giriniz.")
-            return false;
-        }
-        
-        if(document.getElementById('ileti').value==""){
+        if(document.getElementById('yazi').value==""){
             alert("Lütfen iletinizi giriniz.")
             return false;
-        }  
-            
+        }
     }
 </script>
 
 </head>
-<body style="background: #1b1b1b; color: #fff;">
+<body>
     <center>
 <form action="//formspree.io/yolcubugra7@gmail.com" method="post" onsubmit="return checkforblank()">
     Ad-Soyad :<br>
@@ -35,7 +29,7 @@
 E-Mail :<br>
 <input type="email" name="mail" id="mail"/><br><br>
 İleti :<br>
-<textarea name="yazi" id="ileti" rows="7" cols="60"></textarea><br><br>
+<textarea name="yazi" id="yazi" rows="7" cols="60"></textarea><br><br>
 <input type="submit" value="Gönder"/>
 
 
