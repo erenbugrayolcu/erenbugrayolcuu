@@ -14,8 +14,8 @@
       <div class="logo">
 YOLCU</div>
       
-<a href="#tr" data-reload>Turkish</a>
-<a href="#en" data-reload>English</a>
+<a href="#tr" data-reload style="text-align: right;">TR</a>
+<a href="#en" data-reload style="text-align: right;">EN</a>
 
 <label for="btn" class="icon">
         <span class="fa fa-bars"></span>
@@ -63,6 +63,8 @@ YOLCU</div>
         $('span').toggleClass("cancel");
       });
 
+      var dataReload = document.querySelectorAll("[data-reload]");
+
       var language = {
         tr: {
         anasayfa:"Anasayfa",
@@ -96,6 +98,7 @@ YOLCU</div>
         port:"Portfolio",
         ilet:"Contact Us"
       }
+
       };
       
 if(window.location.hash){
@@ -130,9 +133,15 @@ if(window.location.hash){
     üye3.textContent = language.en.ü3;
     portfolyo.textContent = language.en.port;
     iletisim.textContent = language.en.ilet;
-}
+   }
 }
 
+for(i=0; i <= dataReload.length; i++)
+    {
+      dataReload[i].oneclick = function(){
+        location.reload(true);
+      };
+    }
     </script>
 
 
