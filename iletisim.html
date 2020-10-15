@@ -46,6 +46,8 @@
 
 <script>
 
+var dataReload = document.querySelectorAll("[data-reload]");
+
 var language = {
         tr: {
         ad:"Ad-Soyad",
@@ -77,6 +79,13 @@ var language = {
 }
 }
 
+for (i = 0; i<= dataReload.length; i++)
+{
+  dataReload[i].onclick = function()
+  {
+    location.reload(true);
+  }
+};
     </script>
 
 </body>
