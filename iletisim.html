@@ -65,12 +65,6 @@ var language = {
       };
 
     if(window.location.hash){
-  if(window.location.hash === "#tr"){
-    adsoyad.textContent = language.tr.ad;
-    mailadresi.textContent = language.tr.email;
-    mesaj.textContent = language.tr.iletii;
-    buton.textContent = language.tr.button;
-  }
   if(window.location.hash === "#en"){
     adsoyad.textContent = language.en.ad;
     mailadresi.textContent = language.en.email;
@@ -79,13 +73,16 @@ var language = {
 }
 }
 
-for (i = 0; i<= dataReload.length; i++)
-{
-  dataReload[i].onclick = function()
+for(i = 0; i <= dataReload.length; i++){
+  dataReload[i].onclick = function(reloadPage)
   {
-    location.reload(true);
+    {
+  setTimeout(function () {
+    location.reload();
+  }, 100);
+}
   }
-};
+  }
     </script>
 
 </body>
