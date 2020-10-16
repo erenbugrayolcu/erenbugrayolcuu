@@ -119,14 +119,16 @@ if(window.location.hash){
 }
 }
 
-
-for (i = 0; i<= dataReload.length; i++)
-{
-  dataReload[i].onclick = function()
+for(i = 0; i <= dataReload.length; i++){
+  dataReload[i].onclick = function(reloadPage)
   {
-    location.reload(true);
+    {
+  setTimeout(function () {
+    location.reload();
+  }, 100);
+}
   }
-};
+  }
 
     </script>
 
