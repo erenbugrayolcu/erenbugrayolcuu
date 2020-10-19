@@ -19,5 +19,5 @@
     "bugs": {
       "url": "https://github.com/erenbugrayolcu/erenbugrayolcuu/issues"
     },
-    *homepage* : *https://github.com/erenbugrayolcu/erenbugrayolcuu/index.html*
+    "homepage" : "https://github.com/erenbugrayolcu/erenbugrayolcuu/index.html"
   }
