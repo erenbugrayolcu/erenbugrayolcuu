@@ -1,4 +1,5 @@
 body{
+    background-repeat: no-repeat;
     background-image:url(img/xp.jpg);
     background-size: inherit;
     background-attachment: fixed;
