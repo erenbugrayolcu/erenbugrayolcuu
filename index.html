@@ -14,8 +14,8 @@
       <div class="logo">
 YOLCU</div>
       
-<a href="#tr" data-reload>TR</a>
-<a href="#en" data-reload>EN</a>
+<a href="#tr" data-reload id="turkce">TR</a>
+<a href="#en" data-reload id="ingilizce">EN</a>
 
 <label for="btn" class="icon">
         <span class="fa fa-bars"></span>
@@ -24,17 +24,17 @@ YOLCU</div>
       <ul>
 <li><a href="parallax.html" id="sayfa">Anasayfa</a></li>
 <li>
-          <label for="btn-1" class="show">Features +</label>
-          <a href="music.html" id="ozellikler">Özellikler</a>
+          <label for="btn-1" class="show">Özellikler +</label>
+          <a href="#" id="ozellikler">Özellikler</a>
           <input type="checkbox" id="btn-1">
           <ul>
-<li><a href="#" id="sayfalar">Sayfalar</a></li>
+<li><a href="music.html" id="sayfalar">Sayfalar</a></li>
 <li><a href="#" id="icerikler">İçerikler</a></li>
 <li><a href="#" id="ikonlar">İkonlar</a></li>
 </ul>
 </li>
 <li>
-          <label for="btn-2" class="show">Services +</label>
+          <label for="btn-2" class="show">Servisler +</label>
           <a href="#" id="servisler">Servisler</a>
           <input type="checkbox" id="btn-2">
           <ul>
@@ -58,12 +58,29 @@ YOLCU</div>
 </nav>
     <div class="content">
 </div>
+
+
+<div class="bio">
+<div class="hakkimda">
+<h1  id="hak1" >HAKKIMDA</h1>
+<p id="hak1yazi">Ben Eren Buğra YOLCU. 16 yaşındayım, <br> lise 3.sınıfım ve web programlama dalı okuyorum.</p>
+</div>
+
+<div class="hakkimda2">
+  <h1 id="hak2" >HAKKIMDA</h1>
+  <p id="hak2yazi">Ben Eren Buğra YOLCU. 16 yaşındayım, <br> lise 3.sınıfım ve web programlama dalı okuyorum.</p>
+  </div>
+
+  <div class="hakkimda3">
+    <h1 id="hak3">HAKKIMDA</h1>
+    <p id="hak3yazi">Ben Eren Buğra YOLCU. 16 yaşındayım, <br> lise 3.sınıfım ve web programlama dalı okuyorum.</p>
+    </div>    
+  </div>
 <script>
       $('.icon').click(function(){
         $('span').toggleClass("cancel");
       });
 
-var dataReload = document.querySelectorAll("[data-reload]");
 
       var language = {
         tr: {
@@ -80,7 +97,13 @@ var dataReload = document.querySelectorAll("[data-reload]");
         ü2:"Üye-2",
         ü3:"Üye-3",
         port:"Portfolyo",
-        ilet:"İletişim"
+        ilet:"İletişim",
+        hakki1:"Hakkımda",
+        hakki2:"Hakkımda",
+        hakki3:"Hakkımda",
+        hakki1yazi:"Ben Eren Buğra YOLCU. 16 yaşındayım " <br> " lise 3.sınıfım ve web programlama dalı okuyorum.",
+        hakki2yazi:"Ben Eren Buğra YOLCU. 16 yaşındayım " <br> " lise 3.sınıfım ve web programlama dalı okuyorum.",
+        hakki3yazi:"Ben Eren Buğra YOLCU. 16 yaşındayım " <br> " lise 3.sınıfım ve web programlama dalı okuyorum.",        
       },
       en:{
         anasayfa:"Main Page",
@@ -96,8 +119,15 @@ var dataReload = document.querySelectorAll("[data-reload]");
         ü2:"More-2",
         ü3:"More-3",
         port:"Portfolio",
-        ilet:"Contact Us"
+        ilet:"Contact Us",
+        hakki1:"About Me",
+        hakki2:"About Me",
+        hakki3:"About Me",
+        hakki1yazi:"I'm Eren Buğra YOLCU. I am 16 years old," <br> " third grade in high school and studying web programming.",
+        hakki2yazi:"I'm Eren Buğra YOLCU. I am 16 years old," <br> " third grade in high school and studying web programming.",
+        hakki3yazi:"I'm Eren Buğra YOLCU. I am 16 years old," <br> " third grade in high school and studying web programming."
       }
+
       };
       
 if(window.location.hash){
@@ -116,7 +146,21 @@ if(window.location.hash){
     üye3.textContent = language.en.ü3;
     portfolyo.textContent = language.en.port;
     iletisim.textContent = language.en.ilet;
+    hak1.textContent = language.en.hakki1;
+    hak2.textContent = language.en.hakki2;
+    hak3.textContent = language.en.hakki3;
+    hak1yazi.textContent = language.en.hakki1yazi;
+    hak2yazi.textContent = language.en.hakki2yazi;
+    hak3yazi.textContent = language.en.hakki3yazi;
+   }
 }
+
+var dataReload = document.querySelectorAll("[data-reload]");
+
+function reloadPage() {
+  setTimeout(function () {
+    location.reload();
+  }, 100);
 }
 
 for(i = 0; i <= dataReload.length; i++){
