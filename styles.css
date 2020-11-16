@@ -54,7 +54,7 @@ border-width: 1px;
 
 .icerik1{
     background: #1b1b1b;
-    width: 300px;
+    width: 600px;
     height: 300px;
     border: solid 2px  rgb(96, 206, 32);
     margin-left: 16px;
@@ -64,58 +64,58 @@ border-width: 1px;
 }
 
 #f1{
-    width: 285px;
+    width: 500px;
     height: 225px;
-    margin-left: 5px;
+    margin-left: 50px;
     margin-top: 5px;
 }
 
 #f2{
-    width: 285px;
+    width: 500px;
     height: 225px;
-    margin-left: 5px;
+    margin-left: 50px;
     margin-top: 5px;
 }
 
 #f3{
-    width: 285px;
+    width: 500px;
     height: 225px;
-    margin-left: 5px;
+    margin-left: 50px;
     margin-top: 5px;
 }
 
 #f4{
-    width: 285px;
+    width: 500px;
     height: 225px;
-    margin-left: 5px;
+    margin-left: 50px;
     margin-top: 5px;
 }
 
 #baslik1{
     color: #fff;
-    margin-left: 70px;
     margin-top: -7px;
+    text-align: center;
 }
 
 #baslik2{
     color: #fff;
-    margin-left: 60px;
     margin-top: -7px;
+    text-align: center;
 }
 
 #baslik3{
     color: #fff;
-    margin-left: 90px;
     margin-top: -7px;
+    text-align: center;
 }
 
 #baslik4{
     color: #fff;
-    margin-left: 85px;
     margin-top: -7px;
+    text-align: center;
 }
 
 .baslikyazi{
-    margin-left: 25px;
+    margin-left: 175px;
 }
 
