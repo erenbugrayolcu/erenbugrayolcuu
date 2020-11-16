@@ -31,7 +31,7 @@
     <a href="#en" data-reload>EN</a>
      
     <center>
-<form action="//formspree.io/yolcubugra7@gmail.com" method="post" onsubmit="return checkforblank()">
+<form action="https://formspree.io/yolcubugra7@gmail.com" method="post" onsubmit="return checkforblank()">
     <p id="adsoyad">Ad-Soyad :</p><br>
 <input type="text" name="user" id="user"/><br>
 <p id="mailadresi">E-Mail :</p><br>
@@ -40,13 +40,10 @@
 <textarea name="yazi" id="yazi" rows="7" cols="60"></textarea><br>
 <input type="submit" value="Gönder" id="buton"/>
 
-
 </form>
 </center>
 
 <script>
-
-var dataReload = document.querySelectorAll("[data-reload]");
 
 var language = {
         tr: {
@@ -73,6 +70,14 @@ var language = {
 }
 }
 
+var dataReload = document.querySelectorAll("[data-reload]");
+
+function reloadPage() {
+  setTimeout(function () {
+    location.reload();
+  }, 100);
+}
+
 for(i = 0; i <= dataReload.length; i++){
   dataReload[i].onclick = function(reloadPage)
   {
@@ -83,6 +88,7 @@ for(i = 0; i <= dataReload.length; i++){
 }
   }
   }
+
     </script>
 
 </body>
