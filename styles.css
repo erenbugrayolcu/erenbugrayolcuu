@@ -84,26 +84,30 @@ border-width: 1px;
 
 #baslik1{
     color: #fff;
-    margin-top: -7px;
-    text-align: center;
+    margin-top: -40px;
+    text-align: left;
+    margin-left: 15px;
 }
 
 #baslik2{
     color: #fff;
-    margin-top: -7px;
-    text-align: center;
+    margin-top: -45px;
+    text-align: left;
+    margin-left: 65px;
 }
 
 #baslik3{
     color: #fff;
-    margin-top: -7px;
-    text-align: center;
+    margin-top: -45px;
+    text-align: left;
+    margin-left: 15px;
 }
 
 #baslik4{
     color: #fff;
-    margin-top: -7px;
-    text-align: center;
+    margin-top: -45px;
+    text-align: left;
+    margin-left: 15px;
 }
 
 .baslikyazi{
