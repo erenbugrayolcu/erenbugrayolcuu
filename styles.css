@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
     margin: 0;
-    padding: 1px;
+    padding: 0;
     user-select: none;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -66,5 +66,26 @@ border-width: 1px;
     width: 200px;
     height: 200px;
     margin-left: 45px;
-    margin-top: 20px;
+    margin-top: 15px;
+}
+
+#f2{
+    width: 200px;
+    height: 200px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+#f3{
+    width: 200px;
+    height: 200px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+#f4{
+    width: 200px;
+    height: 200px;
+    margin-left: 45px;
+    margin-top: 15px;
 }
