@@ -65,29 +65,21 @@ border-width: 1px;
 #f1{
     width: 500px;
     height: 225px;
-    margin-left: 50px;
-    margin-top: 5px;
 }
 
 #f2{
     width: 500px;
     height: 225px;
-    margin-left: 50px;
-    margin-top: 5px;
 }
 
 #f3{
     width: 500px;
     height: 225px;
-    margin-left: 50px;
-    margin-top: 5px;
 }
 
 #f4{
     width: 500px;
     height: 225px;
-    margin-left: 50px;
-    margin-top: 5px;
 }
 
 #baslik1{
@@ -115,21 +107,24 @@ border-width: 1px;
 }
 
 .baslikyazi{
-    margin-left: 175px;
+    text-align: center;
 }
+
+.resim1{
+    width: 500px;
+    height: 225px;
+    margin-left: 50px;
+    margin-top: 5px;
+    position: relative;
+    display: inline-block;
+}
+
 
 .resim1 > img{
     display: block;
 }
 
-.resim1{
-
-    position: relative;
-    display: inlaine-block;
-}
-
-
-.resim1::after{
+.resim1:after{
     content: "";
     position: absolute;
     left: 0;
