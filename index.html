@@ -1,172 +1,46 @@
-
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <section>
-    <nav>
-      <div class="logo">
-YOLCU</div>
-      
-<a href="#tr" data-reload id="turkce">TR</a>
-<a href="#en" data-reload id="ingilizce">EN</a>
+    <link rel="stylesheet" href="style.css">
+    <title>Ana Sayfa - EREN YOLCU</title>
+</head>
+<body>
+    
+    <div id="header">
+    <div class="logo">Film Yolcusu</div>
+    <div id="nav">
+        <ul style="list-style-type:none;" id="navigasyon">
+            <li class="navbuton"><a href="#" style="color:#fff">Ana Sayfa</a></li>
+            <li class="navbuton"><a href="#" style="color:#fff">Filmler</a></li>
+            <li class="navbuton"><a href="#" style="color:#fff">Diziler</a></li>
+            <li class="navbuton"><a href="iletisim.html" style="color:#fff">Oyuncular</a></li>
+        </ul>
+    </div>
+</div><!--Header Sonu-->
 
-<label for="btn" class="icon">
-        <span class="fa fa-bars"></span>
-      </label>
-      <input type="checkbox" id="btn">
-      <ul>
-<li><a href="parallax.html" id="sayfa">Anasayfa</a></li>
-<li>
-          <label for="btn-1" class="show">Özellikler +</label>
-          <a href="#" id="ozellikler">Özellikler</a>
-          <input type="checkbox" id="btn-1">
-          <ul>
-<li><a href="music.html" id="sayfalar">Sayfalar</a></li>
-<li><a href="#" id="icerikler">İçerikler</a></li>
-<li><a href="#" id="ikonlar">İkonlar</a></li>
-</ul>
-</li>
-<li>
-          <label for="btn-2" class="show">Servisler +</label>
-          <a href="#" id="servisler">Servisler</a>
-          <input type="checkbox" id="btn-2">
-          <ul>
-<li><a href="#" id="webdizayn">Web Dizaynı</a></li>
-<li><a href="#" id="uygdizayn">Uyg. Dizaynı</a></li>
-<li>
-              <label for="btn-3" class="show">More +</label>
-              <a href="#" id="dahafazla">Daha Fazla</a>
-              <input type="checkbox" id="btn-3">
-              <ul>
-<li><a href="#" id="üye1">Üye-1</a></li>
-<li><a href="#" id="üye2">Üye-2</a></li>
-<li><a href="#" id="üye3">Üye-3</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#" id="portfolyo">Portfolyo</a></li>
-<li><a href="iletisim.html" id="iletisim">İletişim</a></li>
-</ul>
-</nav>
-    <div class="content">
+<div id="icerik">
+    <div class="icerik1"><a href="#">
+        <div class="resim1">
+            <img id="f1" src="img/f1.jpg" alt="">
+        </div>
+    </a></div>
+
+    <div class="icerik1"><a href="#">
+        <div class="resim1">
+            <img id="f2" src="img/f2.jpg" alt="">
+        </div>
+    </a></div>
+
+    <div class="icerik1"><a href="#"><div class="resim1">
+        <img id="f3" src="img/f3.jpg" alt="">
+    </div></a></div>
+
+    <div class="icerik1"><a href="#"><div class="resim1">
+        <img id="f4" src="img/f4.jpg" alt="">
+    </div></a></div>
 </div>
 
-
-<div class="bio">
-<div class="hakkimda">
-<p id="hak1">HAKKIMDA <br> Ben Eren Buğra YOLCU. 16 yaşındayım, <br> lise 3.sınıfım ve web programlama dalı okuyorum.</p>
-</div>
-
-<div class="hakkimda2">
-  <p id="hak2">HAKKIMDA <br> Ben Eren Buğra YOLCU. 16 yaşındayım, <br> lise 3.sınıfım ve web programlama dalı okuyorum.</p>
-  </div>
-
-  <div class="hakkimda3">
-    <p id="hak3">HAKKIMDA <br> Ben Eren Buğra YOLCU. 16 yaşındayım, <br> lise 3.sınıfım ve web programlama dalı okuyorum.</p>
-    </div>    
-  </div>
-<script>
-      $('.icon').click(function(){
-        $('span').toggleClass("cancel");
-      });
-
-
-      var language = {
-        tr: {
-        anasayfa:"Anasayfa",
-        ozellik:"Özellikler",
-        sayfala:"Saylafar",
-        icerik:"İçerikler",
-        ikon:"İkonlar",
-        servis:"Servisler",
-        web:"Web Dizayn",
-        uyg:"Uyg. Dizayn",
-        daha:"Daha Fazla",
-        ü1:"Üye-1",
-        ü2:"Üye-2",
-        ü3:"Üye-3",
-        port:"Portfolyo",
-        ilet:"İletişim",
-        hakki1:"HAKKIMDA Ben Eren Buğra YOLCU. 16 yaşındayım, lise 3.sınıfım ve web programlama dalı okuyorum",
-        hakki2:"HAKKIMDA Ben Eren Buğra YOLCU. 16 yaşındayım, lise 3.sınıfım ve web programlama dalı okuyorum",
-        hakki3:"HAKKIMDA Ben Eren Buğra YOLCU. 16 yaşındayım, lise 3.sınıfım ve web programlama dalı okuyorum",
-      },
-      en:{
-        anasayfa:"Main Page",
-        ozellik:"Features",
-        sayfala:"Pages",
-        icerik:"Contents",
-        ikon:"Icons",
-        servis:"Services",
-        web:"Web Design",
-        uyg:"App Design",
-        daha:"More",
-        ü1:"More-1",
-        ü2:"More-2",
-        ü3:"More-3",
-        port:"Portfolio",
-        ilet:"Contact Us",
-        hakki1:"ABOUT ME My name is Eren Bugra YOLCU. I am 16 years old, third grade in high school and studying web programming.",
-        hakki1:"ABOUT ME My name is Eren Bugra YOLCU. I am 16 years old, third grade in high school and studying web programming.",
-        hakki1:"ABOUT ME My name is Eren Bugra YOLCU. I am 16 years old, third grade in high school and studying web programming.",
-      }
-
-      };
-      
-if(window.location.hash){
-  if(window.location.hash === "#en"){
-    ozellikler.textContent = language.en.ozellik;
-    sayfa.textContent = language.en.anasayfa;
-    sayfalar.textContent = language.en.sayfala;
-    icerikler.textContent = language.en.icerik;
-    ikonlar.textContent = language.en.ikon;
-    servisler.textContent = language.en.servis;
-    webdizayn.textContent = language.en.web;
-    uygdizayn.textContent = language.en.uyg;
-    dahafazla.textContent = language.en.daha;
-    üye1.textContent = language.en.ü1;
-    üye2.textContent = language.en.ü2;
-    üye3.textContent = language.en.ü3;
-    portfolyo.textContent = language.en.port;
-    iletisim.textContent = language.en.ilet;
-    hak1.textContent = language.en.hakki1;
-    hak2.textContent = language.en.hakki2;
-    hak3.textContent = language.en.hakki3;
-   }
-}
-
-var dataReload = document.querySelectorAll("[data-reload]");
-
-function reloadPage() {
-  setTimeout(function () {
-    location.reload();
-  }, 100);
-}
-
-for(i = 0; i <= dataReload.length; i++){
-  dataReload[i].onclick = function(reloadPage)
-  {
-    {
-  setTimeout(function () {
-    location.reload();
-  }, 100);
-}
-  }
-  }
-
-    </script>
-
-
-
-</section>
-
-  </body>
+</body>
 </html>
