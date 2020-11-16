@@ -46,7 +46,7 @@ border-width: 1px;
 }
 
 #icerik{
-    background: royalblue;
+    background: rgb(12, 18, 34);
     width: 1290px auto;
     height: 1000px;
     margin: 10px;
@@ -90,3 +90,32 @@ border-width: 1px;
     margin-left: 45px;
     margin-top: 15px;
 }
+
+#baslik1{
+    color: #fff;
+    margin-left: 70px;
+    margin-top: -7px;
+}
+
+#baslik2{
+    color: #fff;
+    margin-left: 60px;
+    margin-top: -7px;
+}
+
+#baslik3{
+    color: #fff;
+    margin-left: 90px;
+    margin-top: -7px;
+}
+
+#baslik4{
+    color: #fff;
+    margin-left: 85px;
+    margin-top: -7px;
+}
+
+.baslikyazi{
+    margin-left: 25px;
+}
+
