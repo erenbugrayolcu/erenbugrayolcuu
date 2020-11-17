@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+#header{
+    background: #1b1b1b;
+    width: auto;
+    height: 80px;
+    padding: 10px 0;
+}
+
+#icerik{
+    background: red;
+    width: 1310px auto;
+    height: 1000px;
+    margin-left: 20px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+.logo{
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-left: 60px;
+    float: left;
+}
+
+.navbuton{
+text-decoration: none;
+float: left;
+margin-left: 20px;
+margin-top: 8px;
+cursor: pointer;
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+color: white;
+padding: 10px;
+margin-left: 40px;
+border: 1px;
+border-width: 1px;
+}
+
+.navbuton:hover{
+    background: rgb(96, 206, 32);
+}
+
+#foto1{
+    width: 500px;
+    height: 225px;
+    margin: 20px;
+}
+
+#icerikbaslik{
+    margin-left: 20px;
+}
