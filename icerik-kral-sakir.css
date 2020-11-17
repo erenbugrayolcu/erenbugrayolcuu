@@ -53,6 +53,7 @@ border-width: 1px;
 }
 
 #foto1{
+    border: solid 2px  rgb(96, 206, 32);
     width: 500px;
     height: 225px;
     margin: 20px;
