@@ -1,17 +1,49 @@
-*{
+#diskutu{
+    background: #4d4d4d;
+    width: 1920px;
+    height: 3000px;
+}
+
+#header{
     background: #1b1b1b;
+    width: 1920px;
+    height: 100px;
+    padding: 1px;
 }
 
-#indir{
-    background: #fff;
-    position: relative;
+#logo{
+    width: 240px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: -13px;
+    float: left;
 }
 
-#oNur{
-    width: 590px;
-    height: 767pxpx;
+#logoisim{
+    color: rgb(0, 141, 0);
+    font-size: 40px;
+    user-select: none;
+    font-family: arial;
 }
 
-#onurYazisi{
-    color: #fff;
+#menuKutu{
+    padding: 1px;
+    text-align: right;
+    margin-left: 1300px;
+}
+
+.menuLink{
+    text-decoration: none;
+    color: rgb(0, 141, 0);
+}
+
+
+.menuListe{
+    list-style-type: none;
+    float: left;
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 60px;
+    font-size: 30px;
+    color: rgb(0, 141, 0);
 }
