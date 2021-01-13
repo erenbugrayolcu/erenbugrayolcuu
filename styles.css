@@ -58,14 +58,11 @@
     color: rgb(0, 141, 0);
 }
 
-#yazi{
-    font-size: 75px;
-    margin-left: 600px;
-    font-family: tw;
-    line-height: 54px;
-    word-spacing: 0px;
-    color: #fff;
-    margin-top: 50px;
+#teenwolfpng{
+    width: 555px;
+    height: 303px;
+    background-image: url(img/teenwolflogo.png);
+    margin-left: 465px;
 }
 
 #ytVideo{
