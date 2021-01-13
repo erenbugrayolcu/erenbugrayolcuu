@@ -1,0 +1,75 @@
+@font-face{
+    src: url(fonts/teenwolf2.ttf);
+    font-family: 'tw';
+    font-style: normal;
+}
+
+*{
+    font-family: tw;
+}
+
+#diskutu{
+    margin: 0 auto;
+    padding: 0;
+    background: #4d4d4d;
+    width: 1500px;
+    height: 900px;
+}
+
+#header{
+    background: #1b1b1b;
+    width: 1500px;
+    height: 100px;
+    padding: 1px;
+}
+
+#logo{
+    width: 262px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: -13px;
+    float: left;
+}
+
+#logoisim{
+    color: rgb(0, 141, 0);
+    font-size: 40px;
+    user-select: none;
+}
+
+#menuKutu{
+    padding: 1px;
+    text-align: right;
+    margin-left: 721px;
+}
+
+.menuLink{
+    text-decoration: none;
+    color: rgb(0, 141, 0);
+}
+
+.menuListe{
+    list-style-type: none;
+    float: left;
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 60px;
+    font-size: 30px;
+    color: rgb(0, 141, 0);
+}
+
+#yazi{
+    font-size: 75px;
+    margin-left: 600px;
+    font-family: tw;
+    line-height: 56px;
+    word-spacing: 0px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+#ytVideo{
+    width: 720px;
+    height: 450px;
+    margin-left: 375px;
+}
