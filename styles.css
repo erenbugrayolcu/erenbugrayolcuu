@@ -5,68 +5,131 @@
 }
 
 *{
-    font-family: tw;
+    margin: 0;
+    padding: 0;
 }
 
 #diskutu{
-    margin: 0 auto;
-    padding: 0;
-    background: #4d4d4d;
-    width: 1500px;
-    height: 900px;
+    width: auto;
+    height: 1500px;
 }
 
 #header{
-    background: #1b1b1b;
-    width: 1500px;
-    height: 100px;
     padding: 1px;
+    background: #1b1b1b;
+    width: auto;
+    height: 150px;
 }
 
 #logo{
-    width: 262px;
-    height: auto;
-    margin-left: 30px;
-    margin-top: -13px;
+    margin-left: 50px;
+    margin-top: 7px;
     float: left;
 }
 
-#logoisim{
-    color: rgb(0, 141, 0);
-    font-size: 40px;
-    user-select: none;
-}
-
-#menuKutu{
+#oyuncular{
+    width: 1390px;
     padding: 1px;
-    text-align: right;
-    margin-left: 721px;
-}
-
-.menuLink{
-    text-decoration: none;
-    color: rgb(0, 141, 0);
-}
-
-.menuListe{
-    list-style-type: none;
-    float: left;
-    text-align: right;
+    display: inline-block;
     margin-top: 15px;
-    margin-right: 60px;
+    margin-left: 155px;
+}
+
+.listeLink{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(146, 0, 0);
+    font-size: 35px;
+    margin-left: 50px;
+    font-family: tw;
+}
+
+.listeEleman{
+    float: left;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+#icerik{
+    width: auto;
+    height: 1350px;
+    padding: 1px;
+}
+
+.solScott{
+    margin-top: 10px;
+    width: 1000px;
+    height: 380px;
+    border-bottom: solid 2px black;
+}
+
+#scottFoto{
+    margin-top: -20px;
+    float: left;
+}
+
+#scottBilgi{
+    width: 700px;
+    height: 380px;
+    margin-left: 300px;
+    padding: 1px;
+}
+
+#scottBilgiYazi{
     font-size: 30px;
-    color: rgb(0, 141, 0);
+    font-family: tw;
+    margin-top: 50px;
 }
 
-#teenwolfpng{
-    width: 555px;
-    height: 303px;
-    background-image: url(img/teenwolflogo.png);
-    margin-left: 465px;
+.sagStiles{
+    margin-left: 900px;
+    margin-top: 10px;
+    width: 1000px;
+    height: 380px;
+    border-bottom: solid 2px black;
 }
 
-#ytVideo{
-    width: 720px;
-    height: 450px;
-    margin-left: 375px;
+#stilesFoto{
+    margin-top: -20px;
+    margin-left: 35px;
+    float: left;
+}
+
+#stilesBilgi{
+    width: 700px;
+    height: 380px;
+    margin-left: 300px;
+    padding: 1px;
+}
+
+#stilesBilgiYazi{
+    font-size: 30px;
+    font-family: tw;
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+.solLydia{
+    margin-top: 10px;
+    width: 1000px;
+    height: 380px;
+    border-bottom: solid 2px black;
+}
+
+#lydiaFoto{
+    margin-top: -20px;
+    float: left;
+}
+
+#lydiaBilgi{
+    width: 700px;
+    height: 380px;
+    margin-left: 300px;
+    padding: 1px;
+}
+
+#lydiaBilgiYazi{
+    font-size: 30px;
+    font-family: tw;
+    margin-top: 87px;
 }
