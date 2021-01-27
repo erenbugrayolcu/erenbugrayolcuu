@@ -1,10 +1,15 @@
 @font-face{
-    src: url(fonts/teenwolf2.ttf);
-    font-family: 'tw';
-    font-style: normal;
+    font-family: "Arial Bold";
+    font-size: 24px;
+    font-style: italic;
+    font-variant: normal;
+    font-family: Helvetica, sans-serif;
+    font-style:italic;
 }
 
 *{
+    font-family: Helvetica, sans-serif;
+    font-style:italic;
     margin: 0;
     padding: 0;
 }
@@ -39,7 +44,7 @@
     color: rgb(146, 0, 0);
     font-size: 35px;
     margin-left: 50px;
-    font-family: tw;
+    font-family: Helvetica;
     float: left;
 }
 
@@ -76,7 +81,6 @@
 
 #scottBilgiYazi{
     font-size: 30px;
-    font-family: tw;
     margin-top: 50px;
 }
 
@@ -103,7 +107,6 @@
 
 #stilesBilgiYazi{
     font-size: 30px;
-    font-family: tw;
     margin-top: 80px;
     margin-left: 15px;
 }
@@ -129,6 +132,5 @@
 
 #lydiaBilgiYazi{
     font-size: 30px;
-    font-family: tw;
     margin-top: 87px;
 }
